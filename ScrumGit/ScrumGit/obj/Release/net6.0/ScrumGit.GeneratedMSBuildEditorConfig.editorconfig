@@ -15,10 +15,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Danny\Desktop\proyecto scrum\ScrumGit\ScrumGit\ScrumGit
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Danny/Desktop/proyecto scrum/ScrumGit/ScrumGit/ScrumGit/Pages/cuenta/login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY3VlbnRhXGxvZ2luLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Danny/Desktop/proyecto scrum/ScrumGit/ScrumGit/ScrumGit/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
