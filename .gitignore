@@ -4,7 +4,11 @@
 
 /ScrumGit/.vs/ScrumGit/FileContentIndex
 /ScrumGit/.vs/ScrumGit/v16
+<<<<<<< HEAD
 /ScrumGit/.vs/ScrumGit/v17
+=======
+/ScrumGit/.vs/ScrumGit/v17/.suo
+>>>>>>> dev_danny
 
  Created by https://www.toptal.com/developers/gitignore/api/visualstudio
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio

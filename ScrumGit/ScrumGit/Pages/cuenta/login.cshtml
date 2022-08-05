@@ -1,0 +1,43 @@
+﻿@page
+@model ScrumGit.Pages.cuenta.loginModel
+@{
+}
+
+
+<div class="container border bg-info" style="padding:20px">
+    <form method="get">
+        <div class="text-white" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="credencial.usuario"></label>
+            </div>
+
+            <div class="col-5">
+                <input type="text" asp-for="credencial.usuario" class="form-control" />
+            </div>
+        </div>
+        <br />
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="credencial.password"></label>
+            </div>
+
+            <div class="col-5">
+                <input type="password" asp-for="credencial.password" class="form-control" />
+            </div>
+        </div>
+
+          <div class="form-group row">
+            <div class="col-2">
+               <input type="submit"  class="btn btn-primary" value="Login" onclick="Index.cshtml" /> 
+               
+             
+            </div>
+
+            <div class="col-5">
+               
+            </div>
+        </div>
+
+    </form>
+</div>
