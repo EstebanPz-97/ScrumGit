@@ -11,8 +11,8 @@ using ScrumGit.Datos;
 namespace ScrumGit.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220804160732_sqlmigracion")]
-    partial class sqlmigracion
+    [Migration("20220805000428_migracionDeDatos")]
+    partial class migracionDeDatos
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -111,6 +111,10 @@ namespace ScrumGit.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("correo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

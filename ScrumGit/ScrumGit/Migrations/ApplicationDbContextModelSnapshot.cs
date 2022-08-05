@@ -112,6 +112,10 @@ namespace ScrumGit.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("rolIdRol")
                         .HasColumnType("int");
 

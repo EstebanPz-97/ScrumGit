@@ -28,6 +28,9 @@ namespace ScrumGit.Models
         [Display(Name = "Correo")]
         public string correo { get; set; }
 
+        [Display(Name = "contraseña")]
+        public string password { get; set; }
+
         [Display(Name = "rol")]
         public int IdRol { get; set; }
 

@@ -4,7 +4,7 @@
 
 namespace ScrumGit.Migrations
 {
-    public partial class sqlmigracion : Migration
+    public partial class migracionDeDatos : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -52,6 +52,7 @@ namespace ScrumGit.Migrations
                     apellido2 = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Telefono = table.Column<int>(type: "int", nullable: false),
                     correo = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    password = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IdRol = table.Column<int>(type: "int", nullable: false),
                     rolIdRol = table.Column<int>(type: "int", nullable: false)
                 },
