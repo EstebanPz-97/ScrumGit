@@ -7,6 +7,11 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "ScrumGit/1.0.0": {
+<<<<<<< HEAD
+        "runtime": {
+          "ScrumGit.dll": {}
+        }
+=======
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7",
@@ -432,6 +437,7 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+>>>>>>> dc2c653c474592cd65b75cb11b2dd0714432d0cd
       }
     }
   },
@@ -440,6 +446,8 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+<<<<<<< HEAD
+=======
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -741,6 +749,7 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+>>>>>>> dc2c653c474592cd65b75cb11b2dd0714432d0cd
     }
   }
 }
