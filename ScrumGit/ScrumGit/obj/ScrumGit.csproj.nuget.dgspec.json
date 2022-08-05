@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VivoBook\\Desktop\\RamaJuan\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit.csproj": {}
+    "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\repos\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VivoBook\\Desktop\\RamaJuan\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit.csproj": {
+    "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\repos\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VivoBook\\Desktop\\RamaJuan\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit.csproj",
+        "projectUniqueName": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\repos\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit.csproj",
         "projectName": "ScrumGit",
-        "projectPath": "C:\\Users\\VivoBook\\Desktop\\RamaJuan\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit.csproj",
-        "packagesPath": "C:\\Users\\VivoBook\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VivoBook\\Desktop\\RamaJuan\\ScrumGit\\ScrumGit\\ScrumGit\\obj\\",
+        "projectPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\repos\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit.csproj",
+        "packagesPath": "C:\\Users\\esteb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\repos\\ScrumGit\\ScrumGit\\ScrumGit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\VivoBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\esteb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
