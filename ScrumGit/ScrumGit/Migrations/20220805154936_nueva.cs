@@ -4,7 +4,7 @@
 
 namespace ScrumGit.Migrations
 {
-    public partial class migracionDeDatos : Migration
+    public partial class nueva : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -11,8 +11,8 @@ using ScrumGit.Datos;
 namespace ScrumGit.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220805000428_migracionDeDatos")]
-    partial class migracionDeDatos
+    [Migration("20220805154936_nueva")]
+    partial class nueva
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
