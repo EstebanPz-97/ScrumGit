@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HwFuJwUBNoJPhJihRqUYJpmpWxQ5wR51lbKkj2oxlM8=",
+  "Hash": "Hc87vsVY8tUliao0ZzntKMptHxgJgXMn594rpFSqDC4=",
   "Source": "ScrumGit",
   "BasePath": "_content/ScrumGit",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\22010748.webp"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\repos\\ScrumGit\\ScrumGit\\ScrumGit\\wwwroot\\img\\22232559.webp",
+      "SourceId": "ScrumGit",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\repos\\ScrumGit\\ScrumGit\\ScrumGit\\wwwroot\\",
+      "BasePath": "_content/ScrumGit",
+      "RelativePath": "img/22232559.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\22232559.webp"
     },
     {
       "Identity": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\repos\\ScrumGit\\ScrumGit\\ScrumGit\\wwwroot\\img\\EGPNUUFPVNBETLXUJJMNXOC35Q.webp",
