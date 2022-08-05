@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit.csproj",
+      "projectUniqueName": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\repos\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit.csproj",
       "projectName": "ScrumGit",
-      "projectPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit.csproj",
+      "projectPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\repos\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit.csproj",
       "packagesPath": "C:\\Users\\esteb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\ScrumGit\\ScrumGit\\ScrumGit\\ScrumGit\\obj\\",
+      "outputPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\repos\\ScrumGit\\ScrumGit\\ScrumGit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -65,7 +65,15 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
