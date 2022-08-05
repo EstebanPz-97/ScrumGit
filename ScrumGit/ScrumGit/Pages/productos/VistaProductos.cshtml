@@ -1,0 +1,44 @@
+﻿@page
+@model ScrumGit.Pages.Productos.VistaProductosModel
+@{
+}
+
+
+
+<div class="row principal">
+    <h2 class="TituloListaDeProductos">Lista de productos</h2>
+    </div>
+         <div class="container-fluid">
+            <div class="row row-cols-4">
+                @if(Model.productos.Count()>0)
+                {
+                    @foreach(var item in Model.productos)
+                    {
+                        <div class="col-3">
+                            <div class="card mb-4">
+                            <p class="contenedor">
+                                <img src="@("/img/"+item.ImagenProducto)" alt="@item.ImagenProducto" class="card-img-top img-index">
+                                <h5 class="card-title">@Html.DisplayFor(m=>item.Nombre)</h5>
+                            </p>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">@Html.DisplayFor(m=>item.Descripcion)</li>
+                                        <li class="list-group-item">@Html.DisplayFor(m=>item.Marca)</li>
+                                        <li class="list-group-item">@Html.DisplayFor(m=>item.Precio)</li>
+                                        <li class="list-group-item">@Html.DisplayFor(m=>item.Serial)</li>
+                                        <li class="list-group-item"><button type="button" class="btn btn-primary">Solicitar Informacion</button></li>
+                                    </ul>
+                                </p>
+                            </div>
+                            
+                            </div>
+                         </div>
+                    }
+                }
+        </div>
+    </div>
+   
+ 
+
+ 

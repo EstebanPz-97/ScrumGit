@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\img\22000390.webp" />
+    <None Include="wwwroot\img\22003688.webp" />
+    <None Include="wwwroot\img\22010748.webp" />
+    <None Include="wwwroot\img\22232559.webp" />
+    <None Include="wwwroot\img\EGPNUUFPVNBETLXUJJMNXOC35Q.webp" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7">

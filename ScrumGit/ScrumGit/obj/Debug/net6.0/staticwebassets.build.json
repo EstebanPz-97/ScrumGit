@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HHalT6KmGw1KDVcvKr/udbT1DwK3IEXmvZJSioP/L6I=",
+  "Hash": "VblY5X/D0MnQNuX3djToTO+cNBFruIuS8+0x/VPIy5U=",
   "Source": "ScrumGit",
   "BasePath": "_content/ScrumGit",
   "Mode": "Default",
@@ -153,6 +153,40 @@
       "OriginalItemSpec": "wwwroot\\img\\22232559.webp"
     },
     {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\ScrumGit\\ScrumGit\\ScrumGit\\wwwroot\\img\\CrearPc.png",
+      "SourceId": "ScrumGit",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\ScrumGit\\ScrumGit\\ScrumGit\\wwwroot\\",
+      "BasePath": "_content/ScrumGit",
+      "RelativePath": "img/CrearPc.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\CrearPc.png"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\ScrumGit\\ScrumGit\\ScrumGit\\wwwroot\\img\\EditarEquipis.png",
+      "SourceId": "ScrumGit",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\ScrumGit\\ScrumGit\\ScrumGit\\wwwroot\\",
+      "BasePath": "_content/ScrumGit",
+      "RelativePath": "img/EditarEquipis.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\EditarEquipis.png"
+    },
+    {
       "Identity": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\ScrumGit\\ScrumGit\\ScrumGit\\wwwroot\\img\\EGPNUUFPVNBETLXUJJMNXOC35Q.webp",
       "SourceId": "ScrumGit",
       "SourceType": "Discovered",
@@ -168,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\EGPNUUFPVNBETLXUJJMNXOC35Q.webp"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\ScrumGit\\ScrumGit\\ScrumGit\\wwwroot\\img\\fondo-computador.jpg",
+      "SourceId": "ScrumGit",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\ScrumGit\\ScrumGit\\ScrumGit\\wwwroot\\",
+      "BasePath": "_content/ScrumGit",
+      "RelativePath": "img/fondo-computador.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fondo-computador.jpg"
     },
     {
       "Identity": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\ScrumGit\\ScrumGit\\ScrumGit\\wwwroot\\img\\tecnologia-.jpg",
