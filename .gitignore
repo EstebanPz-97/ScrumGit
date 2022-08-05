@@ -4,11 +4,10 @@
 
 /ScrumGit/.vs/ScrumGit/FileContentIndex
 /ScrumGit/.vs/ScrumGit/v16
-<<<<<<< HEAD
+/ScrumGit/ScrumGit/obj
+
 /ScrumGit/.vs/ScrumGit/v17/.suo
-=======
 /ScrumGit/.vs/ScrumGit/v17
->>>>>>> master
 
  Created by https://www.toptal.com/developers/gitignore/api/visualstudio
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio
