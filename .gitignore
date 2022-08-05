@@ -3,6 +3,8 @@
 ################################################################################
 
 /ScrumGit/.vs/ScrumGit/FileContentIndex
+/ScrumGit/.vs/ScrumGit/v16
+/ScrumGit/.vs/ScrumGit/v17
 
  Created by https://www.toptal.com/developers/gitignore/api/visualstudio
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio
@@ -413,14 +415,6 @@ ModelManifest.xml
 *.ide
 *.ide-shm
 *.ide-wal
-/ScrumGit/.vs/ScrumGit/DesignTimeBuild/.dtbcache
-/ScrumGit/.vs/slnx.sqlite
-/ScrumGit/.vs/VSWorkspaceState.json
-/ScrumGit/.vs/ScrumGit/DesignTimeBuild/.dtbcache.v2
-/ScrumGit/.vs/ScrumGit/v16
-/ScrumGit/.vs/ScrumGit/v17
-/ScrumGit/.vs/ScrumGit/FileContentIndex
-# JetBrains Rider
 *.sln.iml
 
 ### VisualStudio Patch ###
