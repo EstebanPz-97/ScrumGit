@@ -1,20 +1,28 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using ScrumGit.Datos;
+using ScrumGit.Models;
 
 namespace ScrumGit.Pages
 {
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
+        
+        private readonly ApplicationDbContext _contexto;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(ApplicationDbContext contexto)
         {
-            _logger = logger;
+            _contexto = contexto;
         }
+        public IEnumerable<producto> productos { get; set; }
 
-        public void OnGet()
+        public async Task OnGet()
         {
-
+            productos = await _contexto.producto.ToListAsync();
         }
+      
+
     }
 }

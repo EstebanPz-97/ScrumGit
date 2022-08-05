@@ -1,0 +1,33 @@
+﻿@page
+@model ScrumGit.Pages.productos.crearModel
+@{
+
+    <div class="container">
+    <form method="post" enctype="multipart/form-data" class="form-floating">
+        <div class="form-floating mb-3" >
+        <input type="hidden" value="0" asp-for="producto.ImagenProducto"/>
+        <input asp-for="producto.Nombre" class="form-control" />
+        <label for="floating-input" asp-for="producto.Nombre"></label>
+        </div>
+         <div class="form-floating mb-3" >
+        <input asp-for="producto.Descripcion" class="form-control" />
+        <label for="floating-input" asp-for="producto.Descripcion"></label>
+        </div>
+         <div class="form-floating mb-3" >
+        <input asp-for="producto.Precio" class="form-control" />
+        <label for="floating-input" asp-for="producto.Precio"></label>
+        </div>         <div class="form-floating mb-3" >
+        <input asp-for="producto.Marca" class="form-control" />
+        <label for="floating-input" asp-for="producto.Marca"></label>
+        </div>         <div class="form-floating mb-3" >
+        <input asp-for="producto.Serial" class="form-control" />
+        <label for="floating-input" asp-for="producto.Serial"></label>
+        </div>         <div class="form-floating mb-3" >
+        <input asp-for="producto.ImagenFile" class="form-control" />
+        <label for="floating-input" asp-for="producto.ImagenFile"></label>
+        </div>
+        
+        <input type="submit" value="crear" class="btn btn-success" />
+    </form>
+    </div>
+}
