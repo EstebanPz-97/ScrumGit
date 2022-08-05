@@ -1,0 +1,99 @@
+﻿@page
+@model ScrumGit.Pages.AdminProductos.EditarModel
+@{
+}
+
+
+<div class="card tarjetaCrearProducto">
+    <div class="card-header"> 
+
+    <h2 class="text-info">Editar Producto/h2>   
+    
+    </div>
+
+    <div class="card-body">
+        <form method="post">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <!--Envia el id de manera oculta-->
+       <!--     <input type="hidden" asp-for="productos.id"/>  -->
+
+            <div class="container" style="padding:30px"> 
+                <div class="form-group campoRegistro">
+                    <div class="row">
+
+                        <div class="col-sm-2">
+                        <!--        <label asp-for="productos.nombreProducto"></label>   -->
+                        </div>
+
+                        <div class="col-sm-6">
+                          <!--      <input asp-for="productos.nombreProducto" class="form-control" />
+                        </div>
+                        <!--    <span asp-validation-for="productos.nombreProducto" class="text-danger"></span>  -->
+                    </div>
+                </div>
+
+                 <div class="form-group campoRegistro">
+                    <div class="row">
+
+                        <div class="col-sm-2">
+                        <!--        <label asp-for="productos.presentacionProducto"></label>  -->
+                        </div>
+
+                        <div class="col-sm-6">
+                         <!--       <input asp-for="productos.presentacionProducto" class="form-control" />  -->
+                        </div>
+                        <!--    <span asp-validation-for="productos.presentacionProducto" class="text-danger"></span>  -->
+                    </div>
+                </div>
+
+                 <div class="form-group campoRegistro">
+                    <div class="row">
+
+                        <div class="col-sm-2">
+                        <!--        <label asp-for="productos.precioProducto"></label> -->
+                        </div>
+
+                        <div class="col-sm-6">
+                         <!--       <input asp-for="productos.precioProducto" class="form-control" />  -->
+                        </div>
+                       <!--     <span asp-validation-for="productos.precioProducto" class="text-danger"></span>
+                    </div>
+                </div>
+
+                 <div class="form-group campoRegistro">
+                    <div class="row">
+
+                        <div class="col-sm-2">
+                        <!--        <label asp-for="productos.fechaVencimiento"></label>  -->
+                        </div>
+
+                        <div class="col-sm-6">
+                      <!--          <input asp-for="productos.fechaVencimiento" class="form-control" />  -->
+                        </div>
+                      <!--      <span asp-validation-for="productos.fechaVencimiento" class="text-danger"></span>  -->
+                    </div>
+                </div>
+
+               
+
+              <div class="form-group botonesCrearRegresar"  >
+                    <div class="row ">
+
+                        <div class="col-sm-2 offset-sm-2">
+                            <input type="submit" value="Editar" class="btn btn-primary form-control"/>
+                        </div>
+
+                        <div class="col-sm-4">
+                           <a asp-page="/Registrar/Registrar" class="btn btn-success form-control">Regresar</a>
+                        </div>
+                     <!--       <span asp-validation-for="productos.precioProducto" class="text-danger"></span>  -->
+                    </div>
+                </div>
+
+            </div>
+       </form>
+
+    </div>
+
+</div>

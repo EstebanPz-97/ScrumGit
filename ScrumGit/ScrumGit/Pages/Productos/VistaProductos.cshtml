@@ -1,0 +1,51 @@
+﻿@page
+@model ScrumGit.Pages.Productos.VistaProductosModel
+@{
+}
+
+
+
+<div class="row principal">
+    <h2 class="TituloListaDeProductos">Lista de productos</h2>
+
+ 
+
+    <!-- @if (Model.productos.Count()>0) -->
+    {
+        <br />
+        <br />
+            <!--   @foreach(var item in Model.productos)  -->
+                {
+                   <div  class="col-sm-4 TarjetaEstanteProducto">
+             <!--              <div class="card-title NombreTarjeta">  <h5 class="card-title ">  @Html.DisplayFor(m=>item.nombreProducto) </h5> </div>  -->
+        <div  id="card" class="card">
+          <div  id="tarjeta-especifica" class="card-body">
+            
+     
+
+        <!--        <p id="PresentacionProdVista"class="card-text"> Presentacion en: @Html.DisplayFor(m=>item.presentacionProducto) </p>  -->
+         <!--        <p class="card-text">Precio: $@Html.DisplayFor(m=>item.precioProducto)</p>  -->
+        <!--         <p class="card-text"> Vence en: @Html.DisplayFor(m=>item.fechaVencimiento)</p> -->
+
+
+            <button type="button" class="btn btn-primary">Solicitar Informacion</button>
+          </div>
+        </div>
+      </div>
+                           
+
+
+                   
+                } 
+ 
+    }
+    else
+        {
+            <p>No hay productos registrados</p>
+        }
+
+
+
+
+</div>
+ 
