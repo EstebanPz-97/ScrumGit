@@ -407,15 +407,14 @@ ModelManifest.xml
 *.ide
 *.ide-shm
 *.ide-wal
-/.vs/Registry/DesignTimeBuild/.dtbcache
+/.vs/ScrumGit/DesignTimeBuild/.dtbcache
 /.vs/slnx.sqlite
 /.vs/VSWorkspaceState.json
-/.vs/Registry/DesignTimeBuild/.dtbcache.v2
-/.vs/Registry/v17
-/.vs/Registry/FileContentIndex
+/.vs/ScrumGit/DesignTimeBuild/.dtbcache.v2
+/.vs/ScrumGit/v17
+/.vs/ScrumGit/FileContentIndex
 # JetBrains Rider
 *.sln.iml
-/.vs
 
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
