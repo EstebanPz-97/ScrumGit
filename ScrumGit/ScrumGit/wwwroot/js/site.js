@@ -14,3 +14,22 @@ $(document).ready(function () {
     })
 
 })    
+
+
+
+function RedesSociales() {
+
+    Swal.fire({
+        title: 'Redes Sociales',
+        html: '  <div class="row ej">   <a class="AWhatsapp" href="https://www.whatsapp.com/" target="_blank">  <div class="col-3 colum1" >  Whatsapp </div> </a>    <a class="AWhatsapp" href="https://www.facebook.com/"  target="_blank"> <div class="col-3   colum2"> Facebook</div>  </a>   <a class="AInstagram" href="https://www.instagram.com/" target="_blank">  <div class="col-3   colum3">  Instagram</div>  </a>   </div>',
+        showCloseButton: true,
+        background: ' linear-gradient(#ffff,#d9dfe8)',
+
+        focusConfirm: false,
+
+    })
+
+
+
+    console.log("Correcto");
+}

@@ -221,8 +221,96 @@ body {
 }
 
 
-/* FOOTER */
 
+/*Estilos de Redes Sociales*/
+
+
+
+.AWhatsapp {
+    text-decoration: none;
+    color: white;
+}
+
+.AFacebook {
+    text-decoration: none;
+    color: white;
+}
+
+.AInstagram {
+    text-decoration: none;
+    color: white;
+}
+
+
+.ej {
+    text-align: center;
+    color: #ffff;
+}
+
+.colum2 {
+    background: #c0eef6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#b4e9f2, #3472d6,#0052D4); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#b4e9f2, #3472d6,#0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    border-radius: 10px 0px 10px 0px;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    cursor: pointer;
+    transition: 2000ms;
+}
+
+    .colum2:hover {
+        box-shadow: 1px 0px 0px 2px rgb(255, 255, 255);
+        transform: rotateX(360deg);
+    }
+
+
+
+
+.colum1 {
+    background: #fafaa4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #94f98f 10%,#24FE41 80%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #97f592 10%,#03ab1a 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px 0px 10px 0px;
+    cursor: pointer;
+    transition: 2000ms;
+}
+
+    .colum1:hover {
+        box-shadow: 1px 0px 0px 2px rgb(255, 255, 255);
+        transform: rotateX(360deg);
+    }
+
+
+.colum3 {
+    background: #7F00FF; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 10px 0px 10px 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    cursor: pointer;
+    transition: 2000ms;
+}
+
+    .colum3:hover {
+        box-shadow: 1px 0px 0px 2px rgb(255, 255, 255);
+        transform: rotateX(360deg);
+        color: #d9dfe8;
+    }
+
+.CompraConNosotros{
+    text-decoration:none;
+}
+/* Fin Estilos de Redes Sociales*/
+/* FOOTER */
 footer {
     margin-top: 10%;
     background-color: black;
@@ -265,3 +353,5 @@ footer {
     opacity: .9;
 }
 >>>>>>> dc2c653c474592cd65b75cb11b2dd0714432d0cd
+
+
